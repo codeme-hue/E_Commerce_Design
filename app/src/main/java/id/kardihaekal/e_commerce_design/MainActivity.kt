@@ -30,7 +30,12 @@ import org.json.JSONObject
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
-    lateinit var toolbar: Toolbar
+
+    /**
+     *Lateinit digunakan ketika kita ingin membuat non-null type tapi
+     *kita menginisiasikannya melalui dependency injection atau disebuah method setup dalam unit test
+     * */
+     lateinit var toolbar: Toolbar
     lateinit var sliderMyshop: SliderView
     var greetText: TextView? = null
     private lateinit var llroot: LinearLayout
