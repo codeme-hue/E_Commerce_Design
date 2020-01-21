@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
 
     /**
      *Lateinit digunakan ketika kita ingin membuat non-null type tapi
-     *kita menginisiasikannya melalui dependency injection atau disebuah method setup dalam unit test
+     *kita menginisiasikannya melalui dependency injection atau disebuah method setup dlm unit test
      * */
      lateinit var toolbar: Toolbar
     lateinit var sliderMyshop: SliderView
